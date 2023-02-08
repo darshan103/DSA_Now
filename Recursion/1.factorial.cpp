@@ -1,29 +1,18 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-void selectionSort(int arr[],int n){
-    for(int i=0; i<n; i++){
-        int min_idx=i;
-        for(int j=i; j<n; j++){
-            if(arr[i]>arr[j]){
-                min_idx=j;
-            }
-        }
-        swap(arr[i],arr[min_idx]);
+int factorial(int n){
+    if(n==0 || n==1){
+        return 1;
     }
+    int ans = factorial(n-1);
+    int myans = n*ans;
+    return myans;
 }
 
-int main(){
+int main() {
     int n;
     cin>>n;
-    int arr[n];
-    for(int i=0; i<n; i++){
-        cin>>arr[i];
-    }
-
-    selectionSort(arr,n);
-    for(int i=0; i<n; i++){
-        cout<<arr[i]<<" ";
-    }
-    return 0;
+    int ans = factorial(n);
+    cout<<ans;
 }
