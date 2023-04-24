@@ -5,7 +5,7 @@ void selectionSort(int arr[],int n){
     for(int i=0; i<n; i++){
         int min_idx=i;
         for(int j=i; j<n; j++){
-            if(arr[i]>arr[j]){
+            if(arr[min_idx]>arr[j]){
                 min_idx=j;
             }
         }

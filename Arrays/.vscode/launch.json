@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Asus/Desktop/DSA February/1.Arrays/Recursion",
-      "program": "c:/Users/Asus/Desktop/DSA February/1.Arrays/Recursion/build/Debug/outDebug",
+      "cwd": "c:/Users/Asus/Desktop/DSA February/Arrays",
+      "program": "c:/Users/Asus/Desktop/DSA February/Arrays/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
